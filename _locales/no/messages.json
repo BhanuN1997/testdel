@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Automatiseringsagent med GPT-4"
+  },
+  "ext_description": {
+    "message": "Viser ChatGPT-svar på søkemotorsidene. Oppsummerer, omskriver, trekker ut data og priser fra nettsteder."
+  }
+}

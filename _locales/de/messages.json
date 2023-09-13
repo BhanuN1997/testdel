@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Automatisierungsagent mit GPT-4"
+  },
+  "ext_description": {
+    "message": "Anzeige von ChatGPT-Antworten auf Suchmaschinenseiten. Fasst zusammen, schreibt um, extrahiert und überwacht Seiten, Preise und Daten."
+  }
+}

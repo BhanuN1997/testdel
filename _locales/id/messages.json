@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Agen Otomasi dengan Claude & GPT"
+  },
+  "ext_description": {
+    "message": "Menampilkan jawaban ChatGPT pada halaman mesin pencari. Meringkas, menulis ulang, mengekstrak data dan harga dari situs web."
+  }
+}

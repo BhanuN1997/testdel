@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Agent pre automatizáciu s GPT-4"
+  },
+  "ext_description": {
+    "message": "Zobrazuje odpovede ChatGPT na stránkach vyhľadávača. Sumarizuje, prepisuje, extrahuje údaje a ceny z webových stránok."
+  }
+}

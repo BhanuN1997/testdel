@@ -1,0 +1,75 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  
+
+  "name": "__MSG_ext_name__",
+  "description": "__MSG_ext_description__",
+
+  "version": "5.9.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "img/icons/icon-128.png",
+    "500": "img/icons/icon-500.png"
+  },
+
+  "background": {
+    "scripts": ["/bg.js"],
+    "persistent": true
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["/cs.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://*.openai.com/*"],
+      "js": ["/cs-openai.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    },
+    {
+      "matches": ["https://harpa.ai/*"],
+      "js": ["/cs-web.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+    "alarms",
+    "background",
+    "browsingData",
+    "cookies",
+    "declarativeNetRequest",
+    "notifications",
+    "tabs",
+    "*://*/*"
+  ],
+
+  "optional_permissions": ["downloads"],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "img/badges/badge-48-day.png"
+    },
+    "default_title": "HARPA AI | Browser's Mind"
+  },
+
+  "web_accessible_resources": [
+    "nj-engine.js",
+    "nj-desktop.js",
+    "nj-gdocs.js",
+    "js/timer-worker.js",
+    "js/pdf.min.js",
+    "js/pdf.worker.min.js",
+    "img/misc/shortcut.svg",
+    "img/commands/*.svg",
+    "harpa.html"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://*.openai.com/"
+}

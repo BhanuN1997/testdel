@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Claude 및 GPT-4를 사용한 자동화 에이전트"
+  },
+  "ext_description": {
+    "message": "검색 엔진 페이지에 ChatGPT 답변을 표시합니다. 페이지, 가격 및 데이터를 요약, 재작성, 추출 및 모니터링합니다. 웹 페이지를 API로 변환합니다."
+  }
+}

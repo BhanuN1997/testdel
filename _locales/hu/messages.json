@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "HARPA AI | Automatizálási ügynök GPT-vel"
+  },
+  "ext_description": {
+    "message": "Megjeleníti a ChatGPT válaszokat a keresőmotor oldalain. Összefoglalja, átírja, kivonja az adatokat és az árakat a weboldalakról."
+  }
+}
